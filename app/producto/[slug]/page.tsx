@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getProductBySlug, getRelatedProducts } from '@/lib/catalog-helpers';
@@ -17,6 +18,22 @@ const disciplineLabels: Record<Discipline, string> = {
   gravel: 'Gravel',
   multi: 'Multi',
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
+  if (!product) {
+    return { title: 'Producto no encontrado · ridelab' };
+  }
+  return {
+    title: `${product.name} · ridelab`,
+    description: product.description,
+  };
+}
 
 export default async function ProductPage({
   params,
@@ -50,7 +67,7 @@ export default async function ProductPage({
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <Link
-          href="/catalogo"
+          href="/buscar"
           className="text-sm text-neutral-500 hover:text-neutral-300 transition-colors"
         >
           ← Volver al catálogo

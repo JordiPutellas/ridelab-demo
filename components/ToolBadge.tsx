@@ -36,14 +36,18 @@ export default function ToolBadge({ tool, label, variant = 'inline' }: Props) {
   const { bg, border, text, icon, name } = config[tool];
 
   const base = `inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-xs ${bg} ${border} ${text}`;
-  const cls = variant === 'corner' ? `absolute top-2 right-2 z-10 ${base}` : base;
+  const cls =
+    variant === 'corner'
+      ? `absolute top-2 right-2 z-10 max-w-[calc(100%-1rem)] ${base}`
+      : base;
+  const labelCls = variant === 'corner' ? 'truncate max-w-[120px]' : '';
 
   return (
     <span className={cls}>
-      <span>{icon}</span>
-      <span className="font-semibold uppercase tracking-wider">{name}</span>
-      <span className="opacity-70">·</span>
-      <span>{label}</span>
+      <span className="shrink-0">{icon}</span>
+      <span className="font-semibold uppercase tracking-wider shrink-0">{name}</span>
+      <span className="opacity-70 shrink-0">·</span>
+      <span className={labelCls}>{label}</span>
     </span>
   );
 }

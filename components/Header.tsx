@@ -8,9 +8,6 @@ export default function Header() {
           ridelab
         </Link>
         <nav className="flex items-center gap-6 text-sm text-neutral-400">
-          <Link href="/catalogo" className="hover:text-neutral-100 transition-colors">
-            Catálogo
-          </Link>
           <Link href="/buscar" className="hover:text-neutral-100 transition-colors">
             Buscar
           </Link>

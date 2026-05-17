@@ -8,7 +8,7 @@ export const catalog: Product[] = [
     description: 'Bicicleta de carretera de carbono con grupo Shimano Ultegra Di2 de 12 velocidades.',
     specs: { frame: 'Carbono T800', groupset: 'Shimano Ultegra Di2 R8170', wheels: 'Voltura Aero45', weight: '7.6 kg' },
     sizes: ['48','50','52','54','56','58'],
-    image: 'https://picsum.photos/seed/voltura-strada-sr/600/400',
+    image: 'https://source.unsplash.com/600x400/?road+bike+cycling&sig=1',
     tags: ['carretera','race','di2','carbono','aero','shimano','ultegra'],
   },
   {
@@ -18,7 +18,7 @@ export const catalog: Product[] = [
     description: 'Bicicleta de carretera de aluminio con grupo Shimano Tiagra, perfecta para iniciarse.',
     specs: { frame: 'Aluminio 6061', groupset: 'Shimano Tiagra 4700', wheels: 'Voltura R20', weight: '9.2 kg' },
     sizes: ['48','50','52','54','56','58'],
-    image: 'https://picsum.photos/seed/voltura-strada-comp/600/400',
+    image: 'https://source.unsplash.com/600x400/?road+bike+cycling&sig=2',
     tags: ['carretera','aluminio','entry','tiagra','shimano','iniciacion'],
   },
   {
@@ -28,7 +28,7 @@ export const catalog: Product[] = [
     description: 'Aero de carretera con grupo electrónico SRAM Force AXS y ruedas perfil 50mm.',
     specs: { frame: 'Carbono Aero', groupset: 'SRAM Force AXS', wheels: 'Apex Aero50', weight: '7.8 kg' },
     sizes: ['50','52','54','56','58'],
-    image: 'https://picsum.photos/seed/apex-aero-7/600/400',
+    image: 'https://source.unsplash.com/600x400/?road+bike+cycling&sig=3',
     tags: ['carretera','aero','sram','axs','electronico','race','carbono'],
   },
   {
@@ -38,7 +38,7 @@ export const catalog: Product[] = [
     description: 'Escaladora ultraligera con Dura-Ace Di2 y ruedas de perfil bajo para puertos.',
     specs: { frame: 'Carbono ultraligero', groupset: 'Shimano Dura-Ace Di2 R9270', wheels: 'Apex Climb33', weight: '6.8 kg' },
     sizes: ['50','52','54','56'],
-    image: 'https://picsum.photos/seed/apex-climber/600/400',
+    image: 'https://source.unsplash.com/600x400/?road+bike+cycling&sig=4',
     tags: ['carretera','escaladora','dura-ace','di2','shimano','ligera','race','puertos'],
     isNew: true,
   },
@@ -49,7 +49,7 @@ export const catalog: Product[] = [
     description: 'Endurance de carretera con freno de disco y grupo 105 Di2 para largas distancias.',
     specs: { frame: 'Carbono Endurance', groupset: 'Shimano 105 Di2 R7170', wheels: 'Stratos Endurance', weight: '8.3 kg' },
     sizes: ['50','52','54','56','58'],
-    image: 'https://picsum.photos/seed/stratos-allure-disc/600/400',
+    image: 'https://source.unsplash.com/600x400/?road+bike+cycling&sig=5',
     tags: ['carretera','endurance','105','di2','shimano','disco','gran-fondo'],
   },
   {
@@ -59,7 +59,7 @@ export const catalog: Product[] = [
     description: 'Bicicleta de contrarreloj y triatlón con geometría aero extrema.',
     specs: { frame: 'Carbono Aero TT', groupset: 'SRAM Red AXS', wheels: 'Ridge TT80', weight: '8.1 kg' },
     sizes: ['M','L','XL'],
-    image: 'https://picsum.photos/seed/ridge-tr1-pro/600/400',
+    image: 'https://source.unsplash.com/600x400/?road+bike+cycling&sig=6',
     tags: ['triatlon','contrarreloj','tt','aero','sram','red','race'],
   },
   {
@@ -69,7 +69,7 @@ export const catalog: Product[] = [
     description: 'MTB cross country rígida de carbono con grupo SRAM GX Eagle y horquilla 100mm.',
     specs: { frame: 'Carbono XC', groupset: 'SRAM GX Eagle 12v', fork: 'RockShox SID 100mm', wheels: '29"' },
     sizes: ['S','M','L','XL'],
-    image: 'https://picsum.photos/seed/ridge-sentinel-xc/600/400',
+    image: 'https://source.unsplash.com/600x400/?mountain+bike+trail&sig=7',
     tags: ['mtb','xc','cross-country','hardtail','rigida','carbono','sram','gx','29'],
   },
   {
@@ -79,7 +79,7 @@ export const catalog: Product[] = [
     description: 'MTB trail de doble suspensión 140mm con grupo Shimano XT 12v.',
     specs: { frame: 'Carbono Trail', groupset: 'Shimano XT M8100', travel: '140mm', wheels: '29"' },
     sizes: ['S','M','L','XL'],
-    image: 'https://picsum.photos/seed/ridge-vector-fs/600/400',
+    image: 'https://source.unsplash.com/600x400/?mountain+bike+trail&sig=8',
     tags: ['mtb','trail','doble-suspension','full-suspension','shimano','xt','140mm','29'],
   },
   {
@@ -89,7 +89,7 @@ export const catalog: Product[] = [
     description: 'MTB enduro con 170mm de recorrido y grupo SRAM X01 Eagle para descensos exigentes.',
     specs: { frame: 'Carbono Enduro', groupset: 'SRAM X01 Eagle', travel: '170mm', wheels: 'Mixed (29/27.5)' },
     sizes: ['S','M','L','XL'],
-    image: 'https://picsum.photos/seed/voltura-backwoods/600/400',
+    image: 'https://source.unsplash.com/600x400/?mountain+bike+trail&sig=9',
     tags: ['mtb','enduro','dh','descenso','sram','x01','170mm','mullet'],
   },
   {
@@ -99,7 +99,7 @@ export const catalog: Product[] = [
     description: 'MTB hardtail de aluminio con ruedas 29" para iniciarse en la montaña.',
     specs: { frame: 'Aluminio 6061', groupset: 'Shimano Deore 12v', fork: 'Suntour XCM 100mm', wheels: '29"' },
     sizes: ['S','M','L','XL'],
-    image: 'https://picsum.photos/seed/apex-roam-29/600/400',
+    image: 'https://source.unsplash.com/600x400/?mountain+bike+trail&sig=10',
     tags: ['mtb','hardtail','aluminio','entry','iniciacion','deore','29','shimano'],
   },
   {
@@ -109,7 +109,7 @@ export const catalog: Product[] = [
     description: 'MTB enduro de alta gama, edición competición EWS, doble suspensión 165mm.',
     specs: { frame: 'Carbono Race Enduro', groupset: 'SRAM XX1 AXS', travel: '165mm', wheels: '29"' },
     sizes: ['M','L','XL'],
-    image: 'https://picsum.photos/seed/ridge-apex-ews/600/400',
+    image: 'https://source.unsplash.com/600x400/?mountain+bike+trail&sig=11',
     tags: ['mtb','enduro','race','ews','sram','xx1','axs','race','carbono'],
     isNew: true,
   },
@@ -120,7 +120,7 @@ export const catalog: Product[] = [
     description: 'Gravel de acero con grupo Shimano GRX, perfecto para aventuras de largo recorrido.',
     specs: { frame: 'Acero Reynolds 853', groupset: 'Shimano GRX RX810', wheels: '700c tubeless ready', weight: '10.1 kg' },
     sizes: ['50','53','55','57','60'],
-    image: 'https://picsum.photos/seed/stratos-gravelpath/600/400',
+    image: 'https://source.unsplash.com/600x400/?gravel+bike+adventure&sig=12',
     tags: ['gravel','acero','grx','shimano','bikepacking','aventura','tubeless'],
   },
   {
@@ -130,7 +130,7 @@ export const catalog: Product[] = [
     description: 'Gravel de carbono con grupo SRAM Rival AXS y geometría race para gravel competitivo.',
     specs: { frame: 'Carbono Gravel', groupset: 'SRAM Rival AXS', wheels: 'Voltura GR40', weight: '8.4 kg' },
     sizes: ['50','52','54','56','58'],
-    image: 'https://picsum.photos/seed/voltura-crossfire/600/400',
+    image: 'https://source.unsplash.com/600x400/?gravel+bike+adventure&sig=13',
     tags: ['gravel','carbono','sram','rival','axs','race','competicion'],
   },
   {
@@ -140,7 +140,7 @@ export const catalog: Product[] = [
     description: 'Gravel de aluminio polivalente, ideal para asfalto y caminos.',
     specs: { frame: 'Aluminio 6061', groupset: 'Shimano GRX 400 2x10', wheels: '700c', weight: '10.6 kg' },
     sizes: ['50','53','56','59'],
-    image: 'https://picsum.photos/seed/apex-allroad/600/400',
+    image: 'https://source.unsplash.com/600x400/?gravel+bike+adventure&sig=14',
     tags: ['gravel','aluminio','entry','grx','shimano','polivalente'],
   },
   {
@@ -149,7 +149,7 @@ export const catalog: Product[] = [
     price: 1899, originalPrice: 2199, stock: 8,
     description: 'Juego de ruedas de carbono perfil 55mm, optimizadas para etapas llanas y aero.',
     specs: { material: 'Carbono', profile: '55mm', weight: '1480g', hubs: 'VeloCore Pro', tubeless: 'Sí' },
-    image: 'https://picsum.photos/seed/velocore-aero55/600/400',
+    image: 'https://source.unsplash.com/600x400/?cycling+components+carbon&sig=15',
     tags: ['ruedas','wheelset','carbono','aero','55mm','carretera','tubeless'],
   },
   {
@@ -158,7 +158,7 @@ export const catalog: Product[] = [
     price: 1599, stock: 6,
     description: 'Juego de ruedas de carbono perfil 38mm, ideales para escalada y polivalencia.',
     specs: { material: 'Carbono', profile: '38mm', weight: '1320g', hubs: 'VeloCore Pro', tubeless: 'Sí' },
-    image: 'https://picsum.photos/seed/velocore-climb38/600/400',
+    image: 'https://source.unsplash.com/600x400/?cycling+components+carbon&sig=16',
     tags: ['ruedas','wheelset','carbono','escalada','climb','38mm','carretera','ligeras'],
   },
   {
@@ -167,7 +167,7 @@ export const catalog: Product[] = [
     price: 199, stock: 22,
     description: 'Potencia de carbono UD 110mm con ángulo -7°, peso 115g.',
     specs: { material: 'Carbono UD', length: '110mm', angle: '-7°', weight: '115g', clampDiameter: '31.8mm' },
-    image: 'https://picsum.photos/seed/voltura-pro-stem/600/400',
+    image: 'https://source.unsplash.com/600x400/?cycling+components+carbon&sig=17',
     tags: ['componentes','potencia','stem','carbono','manillar','110mm'],
   },
   {
@@ -176,7 +176,7 @@ export const catalog: Product[] = [
     price: 279, stock: 15,
     description: 'Sillín de carbono con railes de carbono, peso 145g, anchura 142mm.',
     specs: { shell: 'Carbono', rails: 'Carbono', weight: '145g', width: '142mm' },
-    image: 'https://picsum.photos/seed/velocore-saddlex/600/400',
+    image: 'https://source.unsplash.com/600x400/?cycling+components+carbon&sig=18',
     tags: ['componentes','sillin','saddle','carbono','race','ligero'],
   },
   {
@@ -186,7 +186,7 @@ export const catalog: Product[] = [
     description: 'Maillot de competición de manga corta, tejido aero y ligero, corte race.',
     specs: { fit: 'Race', material: 'Aero Lite', sleeves: 'Manga corta', pockets: '3 traseros' },
     sizes: ['XS','S','M','L','XL','XXL'],
-    image: 'https://picsum.photos/seed/helix-prorace-jersey/600/400',
+    image: 'https://source.unsplash.com/600x400/?cycling+jersey+kit&sig=19',
     tags: ['ropa','maillot','jersey','manga-corta','verano','competicion','race','aero'],
   },
   {
@@ -196,7 +196,7 @@ export const catalog: Product[] = [
     description: 'Culotte largo con tirantes y badana de alta densidad para 6h+ sobre la bici.',
     specs: { fit: 'Endurance', chamois: 'Pro 4h+', length: 'Largo', material: 'Lycra italiana' },
     sizes: ['XS','S','M','L','XL','XXL'],
-    image: 'https://picsum.photos/seed/helix-endurance-bib/600/400',
+    image: 'https://source.unsplash.com/600x400/?cycling+jersey+kit&sig=20',
     tags: ['ropa','culotte','bib-short','bib','tirantes','verano','endurance','gran-fondo'],
   },
   {
@@ -206,7 +206,7 @@ export const catalog: Product[] = [
     description: 'Chaqueta térmica cortavientos para entrenamiento en invierno, transpirable.',
     specs: { fit: 'Regular', material: 'Softshell térmico', windproof: 'Sí', waterRepellent: 'DWR' },
     sizes: ['S','M','L','XL','XXL'],
-    image: 'https://picsum.photos/seed/helix-thermoline-jacket/600/400',
+    image: 'https://source.unsplash.com/600x400/?cycling+jersey+kit&sig=21',
     tags: ['ropa','chaqueta','termica','invierno','cortavientos','jacket','fall-winter'],
   },
   {
@@ -216,7 +216,7 @@ export const catalog: Product[] = [
     description: 'Zapatillas de carretera con suela de carbono y cierre BOA Li2 doble.',
     specs: { sole: 'Carbono SR3', closure: 'BOA Li2 x2', weight: '230g', cleatType: '3 tornillos' },
     sizes: ['39','40','41','42','43','44','45','46'],
-    image: 'https://picsum.photos/seed/helix-sr-carbon-shoes/600/400',
+    image: 'https://source.unsplash.com/600x400/?cycling+jersey+kit&sig=22',
     tags: ['ropa','zapatillas','shoes','carretera','carbono','boa','race'],
   },
   {
@@ -225,7 +225,7 @@ export const catalog: Product[] = [
     price: 159, stock: 28,
     description: 'Gafas de sol de ciclismo con lente fotocromática y campo de visión amplio.',
     specs: { lens: 'Fotocromática', category: '1-3', frame: 'TR90', weight: '32g' },
-    image: 'https://picsum.photos/seed/nivox-proshield/600/400',
+    image: 'https://source.unsplash.com/600x400/?cycling+accessories&sig=23',
     tags: ['accesorios','gafas','sunglasses','fotocromaticas','proteccion'],
   },
   {
@@ -234,7 +234,7 @@ export const catalog: Product[] = [
     price: 89, stock: 35,
     description: 'Luz frontal recargable USB-C de 1200 lúmenes, autonomía hasta 12h.',
     specs: { lumens: '1200', battery: '4000mAh', charging: 'USB-C', runtime: '2h max / 12h eco' },
-    image: 'https://picsum.photos/seed/velocore-lumenmax-1200/600/400',
+    image: 'https://source.unsplash.com/600x400/?cycling+accessories&sig=24',
     tags: ['accesorios','luz','luces','frontal','iluminacion','invierno','usb-c'],
   },
   {
@@ -243,7 +243,7 @@ export const catalog: Product[] = [
     price: 349, originalPrice: 399, stock: 14,
     description: 'Ciclocomputador GPS con mapas, navegación y conectividad ANT+/Bluetooth.',
     specs: { display: '2.7" color', battery: '20h GPS', connectivity: 'ANT+/BT', maps: 'Incluidos Europa' },
-    image: 'https://picsum.photos/seed/velocore-pulse-gps/600/400',
+    image: 'https://source.unsplash.com/600x400/?cycling+accessories&sig=25',
     tags: ['accesorios','gps','ciclocomputador','navegacion','sensores','ant'],
   },
 ];

@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import PersonalizedHero from '@/components/PersonalizedHero';
 import PersonalizedRecommendations from '@/components/PersonalizedRecommendations';
@@ -17,6 +18,12 @@ const disciplineLabels: Record<Discipline, string> = {
   mtb: 'MTB',
   gravel: 'Gravel',
   multi: 'Multi',
+};
+
+export const metadata: Metadata = {
+  title: 'ridelab · Cycling Experience Demo',
+  description:
+    'A working showcase of personalization, search and PIM intelligence for cycling e-commerce.',
 };
 
 export default function Home() {

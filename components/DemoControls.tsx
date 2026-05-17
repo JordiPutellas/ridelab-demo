@@ -61,28 +61,30 @@ export default function DemoControls() {
   ];
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 bg-neutral-900/95 backdrop-blur border-t border-neutral-800">
-      <div className="relative max-w-7xl mx-auto px-4 py-2.5 flex items-center justify-center gap-2 flex-wrap">
-        <span className="text-xs text-neutral-500 mr-1">
+    <div className="fixed bottom-0 left-0 right-0 z-50 bg-neutral-900/95 backdrop-blur border-t border-neutral-800 max-h-[40vh] overflow-y-auto">
+      <div className="relative max-w-7xl mx-auto px-4 py-2.5 pr-9 flex items-center justify-center gap-2 flex-wrap">
+        <span className="hidden sm:block text-xs text-neutral-500 mr-1">
           Modo demo · Dynamic Yield simulator
         </span>
-        {buttons.map(b => (
-          <button
-            key={b.label}
-            onClick={() => run(b.action)}
-            className={`text-xs px-3 py-1.5 rounded-full border transition-colors ${
-              b.active
-                ? 'border-white bg-white/10 text-neutral-100'
-                : 'border-neutral-700 text-neutral-400 hover:border-neutral-500 hover:text-neutral-100'
-            }`}
-          >
-            {b.label}
-          </button>
-        ))}
+        <div className="grid grid-cols-2 gap-1 w-full sm:w-auto sm:flex sm:gap-2">
+          {buttons.map(b => (
+            <button
+              key={b.label}
+              onClick={() => run(b.action)}
+              className={`text-xs px-3 py-1.5 rounded-full border transition-colors ${
+                b.active
+                  ? 'border-white bg-white/10 text-neutral-100'
+                  : 'border-neutral-700 text-neutral-400 hover:border-neutral-500 hover:text-neutral-100'
+              }`}
+            >
+              {b.label}
+            </button>
+          ))}
+        </div>
         <button
           onClick={() => setVisible(false)}
           aria-label="Ocultar panel demo"
-          className="absolute right-3 text-neutral-500 hover:text-neutral-200"
+          className="absolute right-3 top-2.5 text-neutral-500 hover:text-neutral-200"
         >
           ✕
         </button>

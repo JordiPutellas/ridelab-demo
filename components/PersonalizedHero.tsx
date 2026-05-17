@@ -23,7 +23,7 @@ function resolveVariant(segment: UserSegment): HeroVariant {
         title: 'Todo para tu próxima aventura sobre ruedas',
         subtitle: 'Descubre el catálogo · Envío gratis en tu primer pedido',
         ctaLabel: 'Ver catálogo',
-        ctaHref: '/catalogo',
+        ctaHref: '/buscar',
         badgeText: 'PRIMERA VISITA · Envío gratis',
         badgeClass: 'bg-yellow-500/15 border-yellow-500/40 text-yellow-300',
       };
@@ -32,7 +32,7 @@ function resolveVariant(segment: UserSegment): HeroVariant {
       title: 'Todo para tu próxima aventura sobre ruedas',
       subtitle: 'Más de 25 productos seleccionados para ciclistas',
       ctaLabel: 'Explorar',
-      ctaHref: '/catalogo',
+      ctaHref: '/buscar',
       badgeText: 'NUEVA SELECCIÓN · Primavera 2025',
       badgeClass: 'bg-green-500/15 border-green-500/40 text-green-300',
     };
@@ -63,7 +63,7 @@ function resolveVariant(segment: UserSegment): HeroVariant {
     title: 'Bienvenido de vuelta',
     subtitle: 'Tus recomendaciones de esta semana',
     ctaLabel: 'Ver novedades',
-    ctaHref: '/catalogo',
+    ctaHref: '/buscar',
     badgeText: 'RECURRENTE',
     badgeClass: 'bg-neutral-500/15 border-neutral-500/40 text-neutral-300',
   };
