@@ -1,7 +1,9 @@
-import 'dotenv/config';
+import { config } from 'dotenv';
+import path from 'path';
 import { algoliasearch } from 'algoliasearch';
 import { catalog } from '../lib/catalog';
 
+config({ path: path.resolve(process.cwd(), '.env.local') });
 const appId = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID!;
 const adminKey = process.env.ALGOLIA_ADMIN_API_KEY!;
 const indexName = process.env.NEXT_PUBLIC_ALGOLIA_INDEX_NAME ?? 'products';
