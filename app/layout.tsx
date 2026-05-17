@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "ridelab · Cycling Experience Demo",
@@ -14,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+          <Header />
+          {children}
+        </body>
     </html>
   );
 }
