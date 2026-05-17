@@ -73,12 +73,22 @@ export default function CatalogoPage() {
           <p className="text-xs uppercase tracking-widest text-neutral-500 mb-1">
             ridelab / catálogo
           </p>
-          <h1 className="text-3xl font-bold text-neutral-100">
-            Catálogo
-          </h1>
-          <p className="mt-2 text-neutral-400 text-sm">
-            {products.length} productos
-          </p>
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div>
+              <h1 className="text-3xl font-bold text-neutral-100">
+                Catálogo
+              </h1>
+              <p className="mt-2 text-neutral-400 text-sm">
+                {products.length} productos
+              </p>
+            </div>
+            <Link
+              href="/buscar"
+              className="text-sm text-sky-400 hover:text-sky-300 transition-colors flex items-center gap-1"
+            >
+              Probar búsqueda inteligente →
+            </Link>
+          </div>
         </header>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
