@@ -11,6 +11,9 @@ export default function Header() {
           <Link href="/buscar" className="hover:text-neutral-100 transition-colors">
             Buscar
           </Link>
+          <Link href="/proyecto" className="hover:text-neutral-100 transition-colors">
+            El proyecto
+          </Link>
         </nav>
       </div>
     </header>
